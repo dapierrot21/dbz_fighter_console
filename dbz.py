@@ -2,7 +2,7 @@ class Fighter:
     def __init__(self, fighter_name, level):
         self.fighter_name = fighter_name
         self.level = level
-        self.stanima = 8
+        self.stanima = 9
         self.max_health = level * 7
         self.cant_fight = False
 
